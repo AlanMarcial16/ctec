@@ -42,6 +42,9 @@
                             <img src="img\Icono.png" alt="">
                             </div>
                             <div class="col-lg-6">
+                                <br>
+                                <br>
+                                <br>
                                 <div class="p-5">
                                     <div class="text-center">
                                         <h1 class="h4 text-gray-900 mb-4"><b>Bienvenido a CTEC!</b></h1>
