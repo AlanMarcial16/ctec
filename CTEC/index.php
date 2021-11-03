@@ -104,7 +104,7 @@
             <div class="sidebar-card d-none d-lg-flex">
                 <img class="sidebar-card-illustration mb-2" src="img\Log out.png" alt="...">
                 <p class="text-center mb-2">En <strong>CTEC</strong> estamos para servirte siempre!</p>
-                <a class="btn btn-success btn-sm" href="login.php">Cerrar cesion</a>
+                <a class="btn btn-success btn-sm" href="login.php">Cerrar Sesión</a>
             </div>
 
         </ul>
@@ -128,7 +128,7 @@
                     <form
                         class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
-                            <input type="text" class="form-control bg-light border-0 small" placeholder="En busaca de..."
+                            <input type="text" class="form-control bg-light border-0 small" placeholder="Buscar..."
                                 aria-label="Search" aria-describedby="basic-addon2">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">
@@ -288,7 +288,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Carlos Sosa</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Alan Marcial</span>
                                 <img class="img-profile rounded-circle"
                                     src="img/undraw_profile.svg">
                             </a>
@@ -297,20 +297,20 @@
                                 aria-labelledby="userDropdown">
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Profile
+                                    Perfil
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-cogs fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Settings
+                                    Ajustes
                                 </a>
                                 <a class="dropdown-item" href="#">
                                     <i class="fas fa-list fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Activity Log
+                                    Actividad 
                                 </a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
                                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
+                                    Cerrar sesión
                                 </a>
                             </div>
                         </li>
@@ -323,6 +323,7 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+                    <!-- COMIENZA EL DASHBOARD -->
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
                         <h1 class="h3 mb-0 text-gray-800"><b>Inicio</b></h1>
@@ -338,7 +339,7 @@
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
                                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Citas proximas</div>
+                                                Próximas citas</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">Diciembre 22</div>
                                         </div>
                                         <div class="col-auto">
@@ -402,15 +403,75 @@
                             </div>
                             <div class="card-body">
                                 <div class="text-center">
-                                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
+                                    <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;"
                                         src="img/undraw_posting_photo.svg" alt="...">
                                 </div>
                                 <p><b>CTEC</b> es el mejor sitio para darle mantenimiento a tus equipos y reparar los que ya estan descompuestos,
                                 contamos con servicio a domicilio por lo que lo unico que tendrá que hacer es agendar una cita y esperar a que uno de nuestros técnicos lo visite!</p>
                             </div>
                         </div>
+                    <!-- TERMINA EL DASHBOARD -->
 
+
+                    <!-- COMIENZAN OPCIONES -->
                     <!-- Content Row -->
+
+                    <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Primer paso</div>
+                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Próximas citas</div>
+                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-info shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Proximo mantenimiento
+                                            </div>
+                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Primer paso</div>
+                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+
                     <!-- Content Row -->
                   
 
