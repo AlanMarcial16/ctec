@@ -45,8 +45,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                <a class="nav-link" href="index.php">
                     <span>Panel de control</span></a>
             </li>
 
@@ -70,7 +69,7 @@
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Opciones:</h6>
-                        <a class="collapse-item" href="buttons.php">Agendar cita</a>
+                        <a class="collapse-item" href="agendar.php">Agendar cita</a>
                         <a class="collapse-item" href="cards.php">Cancelar cita</a>
                     </div>
                 </div>
@@ -216,62 +215,7 @@
                     <!-- Content Row -->
                     <div class="row">
 
-                    <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Primer paso</div>
-                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                     </div>
-
-                    <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Segundo paso</div>
-                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-info shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tercer paso
-                                            </div>
-                                            <a href="#" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-
-                    <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-success shadow h-100 py-2">
-                                <div class="card-body">
-                                    <div class="row no-gutters align-items-center">
-                                        <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Cuarto paso</div>
-                                            <a href="agendar.php" class="h5 mb-0 font-weight-bold text-gray-800">Agenda tu cita</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </div>
-
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
                                 <h6 class="m-0 font-weight-bold text-primary">CTEC</h6>
