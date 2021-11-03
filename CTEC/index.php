@@ -405,8 +405,8 @@
                                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 25rem;"
                                         src="img/undraw_posting_photo.svg" alt="...">
                                 </div>
-                                <p><b>CTEC</b> es el mejo sitio para poder darle mantenimiento a tus equipos y reparar los que ya estan descompuestos,
-                                contamos con servicio a domicilio por lo que lo unico que tendra que hacer es agendar citas y esperar a uno de nuestros técnicos lo visite!</p>
+                                <p><b>CTEC</b> es el mejor sitio para darle mantenimiento a tus equipos y reparar los que ya estan descompuestos,
+                                contamos con servicio a domicilio por lo que lo unico que tendrá que hacer es agendar una cita y esperar a que uno de nuestros técnicos lo visite!</p>
                             </div>
                         </div>
 
