@@ -71,7 +71,7 @@
                                         placeholder="Número de teléfono">
                                     </div>
                                 </div>
-                                <a href="login.html" class="btn btn-primary btn-user btn-block">
+                                <a href="login.php" class="btn btn-primary btn-user btn-block">
                                     Registra tu cuenta
                                 </a>
                             </form>
