@@ -40,47 +40,50 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4"><b>Crea una cuenta!</b></h1>
                             </div>
-                            <form class="user">
+                            <form method="POST" class="user">
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="text" class="form-control form-control-user" id="exampleFirstName"
+                                        <input type="text" name="nombre" class="form-control form-control-user" id="exampleFirstName"
                                             placeholder="Nombre">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="text" class="form-control form-control-user" id="exampleLastName"
+                                        <input type="text" name="apellidos" class="form-control form-control-user" id="exampleLastName"
                                             placeholder="Apellidos">
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input type="Username" class="form-control form-control-user" id="exampleInputEmail"
+                                    <input type="Username" name="usrname" class="form-control form-control-user" id="exampleInputEmail"
                                         placeholder="Username">
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                        <input type="password" class="form-control form-control-user"
+                                        <input type="password" name="pwd" class="form-control form-control-user"
                                             id="exampleInputPassword" placeholder="Contraseña">
                                     </div>
                                     <div class="col-sm-6">
-                                        <input type="password" class="form-control form-control-user"
+                                        <input type="password" name="rpwd" class="form-control form-control-user"
                                             id="exampleRepeatPassword" placeholder="Confirma la contraseña">
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
-                                    <input type="phone" class="form-control form-control-user" id="exampleInputphone"
+                                    <input type="phone" name="phone" class="form-control form-control-user" id="exampleInputphone"
                                         placeholder="Número de teléfono">
                                     </div>
                                 </div>
-                                <a href="login.php" class="btn btn-primary btn-user btn-block">
+                                <button input type="submit" name="registro" class="btn btn-primary btn-user btn-block">
                                     Registra tu cuenta
-                                </a>
+                                </button>
                             </form>
+                            <?php
+                            include("registro.php");
+                            ?>
                             <hr>
                             <div class="text-center">
                                 <a class="small" href="forgot-password.html">Olvidaste tu contraseña?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small" href="login.html">¿Ya tienes cuenta? Inicia sesión!</a>
+                                <a class="small" href="login.php">¿Ya tienes cuenta? Inicia sesión!</a>
                             </div>
                         </div>
                     </div>

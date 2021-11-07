@@ -11,4 +11,6 @@ try {
   die('Connection Failed: ' . $e->getMessage());
 }
 
+$conex = mysqli_connect("localhost", "root", "", "ctec");
+
 ?>
