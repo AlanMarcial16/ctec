@@ -218,15 +218,16 @@
                     </div>
                         <div class="card shadow mb-4">
                             <div class="card-header py-3">
-                                <h6 class="m-0 font-weight-bold text-primary">CTEC</h6>
+                                <h6 class="m-0 font-weight-bold text-primary">Responde el siguiente formulario</h6>
                             </div>
                             <div class="card-body">
                                 <div class="text-center">
                                     <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 20rem;"
                                         src="img/undraw_posting_photo.svg" alt="...">
                                 </div>
-                                <p><b>CTEC</b> es el mejor sitio para darle mantenimiento a tus equipos y reparar los que ya estan descompuestos,
-                                contamos con servicio a domicilio por lo que lo unico que tendrá que hacer es agendar una cita y esperar a que uno de nuestros técnicos lo visite!</p>
+                                <form>
+                                    
+                                </form>
                             </div>
                         </div>
                     <!-- TERMINA EL DASHBOARD -->
